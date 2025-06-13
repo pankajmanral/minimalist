@@ -1,0 +1,139 @@
+.banner{
+    padding-top: 150px;
+}
+
+.banner .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .section-heading {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 65.34px;
+    font-weight: var(--fw-600);
+    line-height: 82px;
+    margin-bottom: 17px;
+}
+
+.banner .section-description {
+    font-family: var(--secondary-font);
+    font-weight: var(--fw-400);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 33px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.banner .join-nw-btn {
+    font-family: var(--primary-font);
+    font-size: 21.33px;
+    font-weight: var(--fw-600);
+    line-height: 24px;
+    padding: 16px 77px;
+    background-color: var(--primary-bg);
+    color: var(--tertiary-color);
+    border-radius: 67px;
+    cursor: pointer;
+    margin-bottom: 56px;
+}
+
+.banner .banner-image {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.banner .banner-img-wrapper {
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.banner .banner-img-wrapper:last-child {
+    margin-left: 48px;
+}
+
+@media (max-width: 1441px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .container {
+        max-width: 884px;
+    }
+
+    .banner .section-description {
+        max-width: 630px;
+    }
+
+    
+    .banner .banner-img-wrapper:last-child {
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+
+}
+
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .banner .banner-image {
+        flex-direction: column;
+    }
+
+    .banner .banner-img-wrapper:last-child {
+        margin-top: 28px;
+        margin-left: 0px;
+    }
+
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 525px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .banner .section-heading {
+        font-size: 37.9px;
+        line-height: 47px;
+    }
+
+    .banner .section-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .banner .join-nw-btn {
+        padding: 16px 57px;
+    }
+
+
+}

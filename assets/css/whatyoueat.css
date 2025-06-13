@@ -1,0 +1,135 @@
+.whatyoueat .reuseable-wrapper {
+    background-color: var(--secondary-bg);
+    border-radius: 12px;
+    display: flex;
+}
+
+.whatyoueat .section-heading {
+    padding-top: 48px;
+}
+
+.whatyoueat .reuseable-left-content {
+    flex: 2;
+    order: 2;
+    padding: 56px 206px 122px 87px;
+}
+
+.whatyoueat .reuseable-right-content {
+    flex: 1;
+    padding: 81px 0 112.5px 114px;
+}
+
+.whatyoueat .reuseable-card-wrapper {
+    display: flex;
+    padding-top: 41px;
+}
+
+.whatyoueat .reuseable-card {
+    width: 260px;
+}
+
+.whatyoueat .reuseable-card:last-child {
+    margin-left: 69px;
+}
+
+.whatyoueat .leaf-img {
+    background-color: var(--primary-bg);
+    display: inline-flex;
+    padding: 14px 16px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.whatyoueat .reuseable-card-text {
+    font-family: var(--secondary-font);
+    font-weight: var(fw-400);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 1441px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .whatyoueat .section-heading {
+        text-align: center;
+        padding-top: 0;
+    }
+    
+    .whatyoueat .reuseable-right-content {
+        display: none;
+    }
+
+    .whatyoueat .reuseable-left-content {
+        flex: 1;
+        padding: 64px 112px;
+    }
+
+    .whatyoueat .reuseable-card-wrapper {
+        justify-content: space-between;
+        padding-top: 69px;
+    }
+
+    .whatyoueat .reuseable-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .whatyoueat .reuseable-card:last-child {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .container {
+        max-width: 884px;
+    }
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .whatyoueat .reuseable-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 85px;
+    }
+
+    .whatyoueat .reuseable-card:last-child {
+        padding-top: 26px;
+    }
+
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 575px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .whatyoueat .reuseable-left-content {
+        padding: 64px 0;
+    }
+}

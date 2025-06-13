@@ -1,0 +1,198 @@
+.cta-banner .cta-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-banner .cta-banner-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.cta-banner .cta-text-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 99px;
+    padding: 11px 5px;
+}
+
+.cta-banner .cta-icon {
+    margin-bottom: 45px;
+}
+
+.cta-banner .cta-class-icon {
+    width: 92px;
+    height: auto;
+}
+
+.cta-banner .section-heading {
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+    font-size: 37.9px;
+    font-weight: var(--fw-600);
+    line-height: 36px;
+    text-align: center;
+}
+
+.cta-banner .section-description {
+    color: var(--tertiary-color);
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.cta-banner .join-nw-btn {
+    font-family: var(--primary-font);
+    font-size: 21.33px;
+    font-weight: var(--fw-600);
+    line-height: 24px;
+    padding: 16px 77px;
+    background-color: transparent;
+    color: var(--tertiary-color);
+    border-radius: 67px;
+    cursor: pointer;
+    margin-bottom: 56px;
+    border: 1px solid var(--tertiary-color);
+}
+
+.cta-banner .cta-overlay {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    padding: 119px 66px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: var(--tertiary-bg);
+    top: 476px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+}
+
+.cta-banner .cta-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: -8.5px;
+}
+
+.cta-banner .cta-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    margin: 8.5px
+}
+
+.cta-banner .cta-card:last-child {
+    margin-right: 0;
+}
+
+.cta-banner .plant-icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 11px;
+}
+
+.cta-banner .card-title {
+    color: var(--secondary-font);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 21.33px;
+    font-weight: var(--fw-400);
+    line-height: 24px;
+}
+
+@media (max-width: 1441px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width:1025px) {
+    .container {
+        max-width: 884px;
+    }
+
+    .cta-banner .join-nw-btn {
+        margin-bottom: 37px;
+    }
+
+    .cta-banner .cta-card:nth-child(3),
+    .cta-banner .cta-card:nth-child(4) {
+        margin-top: 49px;
+    }
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .cta-banner .cta-overlay {
+        top: 550px;
+    }
+
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 525px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .cta-banner .section-heading {
+        font-size: 21.3px;
+        line-height: 31px;
+        margin-bottom: 13px;
+        text-align: center;
+    }
+
+    .cta-banner .section-description {
+        display: none;
+    }
+
+    .cta-banner .cta-text-content {
+        padding: 11px 62px;
+    }
+
+    .cta-banner .cta-overlay {
+        top: 400px;
+        padding: 71px 66px;
+    }
+
+    .cta-banner .cta-card:nth-child(2) {
+        margin-top: 49px;
+    }
+
+    .cta-banner .cta-class-icon {
+        width: 42px;
+        height: 41px;
+    }
+
+}

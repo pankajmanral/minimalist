@@ -1,0 +1,136 @@
+.wellbeing .reuseable-wrapper {
+    background-color: var(--secondary-bg);
+    border-radius: 12px;
+    display: flex;
+}
+
+.wellbeing .section-heading {
+    padding-top: 48px;
+}
+
+.wellbeing .reuseable-left-content {
+    flex: 2;
+    padding: 51px 112px;
+}
+
+.wellbeing .reuseable-right-content {
+    flex: 1;
+    padding-top: 100px;
+    display: flex;
+    align-items: end;
+}
+
+.wellbeing .reuseable-card-wrapper {
+    display: flex;
+    padding-top: 61px;
+}
+
+.wellbeing .reuseable-card {
+    width: 260px;
+}
+
+.wellbeing .reuseable-card:last-child {
+    margin-left: 69px;
+}
+
+.wellbeing .leaf-img {
+    background-color: var(--primary-bg);
+    display: inline-flex;
+    padding: 14px 16px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.wellbeing .reuseable-card-text {
+    font-family: var(--secondary-font);
+    font-weight: var(fw-400);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width: 1441px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .wellbeing .section-heading {
+        text-align: center;
+        padding-top: 0;
+    }
+    
+    .wellbeing .reuseable-right-content {
+        display: none;
+    }
+
+    .wellbeing .reuseable-left-content {
+        flex: 1;
+        padding: 64px 112px;
+    }
+
+    .wellbeing .reuseable-card-wrapper {
+        justify-content: space-between;
+        padding-top: 69px;
+    }
+
+    .wellbeing .reuseable-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .wellbeing .reuseable-card:last-child {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .container {
+        max-width: 884px;
+    }
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 993px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .wellbeing .reuseable-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 85px;
+    }
+
+    .wellbeing .reuseable-card:last-child {
+        padding-top: 26px;
+    }
+
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 575px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .wellbeing .reuseable-left-content {
+        padding: 64px 0;
+    }
+}

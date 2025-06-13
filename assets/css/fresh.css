@@ -1,0 +1,127 @@
+.fresh .fresh-wrapper {
+    display: flex;
+}
+
+.fresh .fresh-left-img,
+.fresh .fresh-right-content {
+    flex: 1;
+}
+
+.fresh .fresh-left-img {
+    overflow: hidden;
+    display: flex;
+}
+
+.fresh .fresh-img {
+    border-radius: 12px;
+    height: auto;
+}
+
+.fresh .fresh-right-content {
+    margin-top: 52px;
+    margin-left: 53px;
+}
+
+.fresh .fresh-card-wrapper {
+    margin-top: 50px;
+}
+
+.fresh .fresh-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fresh .fresh-card-text {
+    font-family: var(--secondary-font);
+    margin-left: 23px;
+    font-size: 16px;
+    font-weight: var(--fw-400);
+    line-height: 24px
+}
+
+@media (max-width: 1441px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (≤1200px) */
+@media (max-width: 1201px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .fresh .fresh-left-img {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:1025px) {
+    .container {
+        max-width: 884px;
+    }
+
+    .fresh .fresh-left-img {
+        align-items: start;
+    }
+
+    .fresh .fresh-right-content {
+        margin-top: 0;
+        margin-left: 25px;
+    }
+
+    .fresh .fresh-card {
+        margin-bottom: 52.67px;
+    }
+
+    .fresh .fresh-card:last-child {
+        margin-bottom: 0px;
+    }
+
+}
+
+/* Medium devices (≤992px) */
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .fresh .section-heading{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .fresh .section-description{
+        margin-top: 16px;
+    }
+
+    .fresh .fresh-wrapper {
+        flex-direction: column;
+    }
+
+    .fresh .fresh-card-wrapper{
+        margin-top: 26px;
+    }
+
+    .fresh .fresh-card{
+        margin-bottom: 26px;
+    }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 769px) {
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+/* Extra small devices (≤430px) */
+@media (max-width: 525px) {
+    .container {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+}
