@@ -42,6 +42,11 @@ header .nav-items {
     line-height: 24px;
     padding: 32px 0;
     cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+header .nav-items:hover{
+    color: var(--primary-bg);
 }
 
 header .nav-items:last-child {
