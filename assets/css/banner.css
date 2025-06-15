@@ -1,5 +1,5 @@
 .banner{
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .banner .text-container {
@@ -46,7 +46,6 @@
 
 .banner .banner-image {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -59,9 +58,15 @@
     margin-left: 48px;
 }
 
-@media (max-width: 1441px) {
+.banner .banner-img{
+    max-width: 626px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1439px) {
     .container {
-        max-width: 1140px;
+        max-width: 1300px;
     }
 }
 

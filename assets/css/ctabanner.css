@@ -22,6 +22,10 @@
     padding: 11px 5px;
 }
 
+.cta-banner .section-heading{
+    margin-bottom: 25px;
+}
+
 .cta-banner .cta-icon {
     margin-bottom: 45px;
 }
@@ -112,9 +116,9 @@
     line-height: 24px;
 }
 
-@media (max-width: 1441px) {
+@media (max-width: 1439px) {
     .container {
-        max-width: 1140px;
+        max-width: 1300px;
     }
 }
 

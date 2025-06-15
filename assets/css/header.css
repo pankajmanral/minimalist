@@ -68,9 +68,9 @@ header aside{
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 1441px) {
+@media (max-width: 1439px) {
     .container {
-        max-width: 1140px;
+        max-width: 1300px;
     }
 }
 

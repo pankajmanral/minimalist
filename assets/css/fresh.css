@@ -1,5 +1,6 @@
 .fresh .fresh-wrapper {
     display: flex;
+    align-items: center;
 }
 
 .fresh .fresh-left-img,
@@ -14,22 +15,28 @@
 
 .fresh .fresh-img {
     border-radius: 12px;
-    height: auto;
 }
 
 .fresh .fresh-right-content {
-    margin-top: 52px;
-    margin-left: 53px;
+    padding: 52px 0 52px 53px;
+}
+
+.fresh .section-heading {
+    margin-bottom: 25px;
 }
 
 .fresh .fresh-card-wrapper {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .fresh .fresh-card {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.fresh .fresh-card:last-child {
+    margin-bottom: 0;
 }
 
 .fresh .fresh-card-text {
@@ -40,9 +47,9 @@
     line-height: 24px
 }
 
-@media (max-width: 1441px) {
+@media (max-width: 1439px) {
     .container {
-        max-width: 1140px;
+        max-width: 1300px;
     }
 }
 
@@ -88,12 +95,16 @@
         max-width: 720px;
     }
 
-    .fresh .section-heading{
+    .fresh .section-heading {
         text-align: center;
         margin-top: 25px;
     }
 
-    .fresh .section-description{
+    .fresh .fresh-right-content {
+        padding: 52px 0 52px;
+    }
+
+    .fresh .section-description {
         margin-top: 16px;
     }
 
@@ -101,11 +112,11 @@
         flex-direction: column;
     }
 
-    .fresh .fresh-card-wrapper{
+    .fresh .fresh-card-wrapper {
         margin-top: 26px;
     }
 
-    .fresh .fresh-card{
+    .fresh .fresh-card {
         margin-bottom: 26px;
     }
 }
