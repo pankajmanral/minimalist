@@ -33,7 +33,7 @@
 }
 
 .whatyoueat .leaf-img {
-    background-color: var(--primary-bg);
+    background-color: var(--quaternary-bg);
     display: inline-flex;
     padding: 14px 16px;
     border-radius: 9px;
@@ -107,7 +107,7 @@
 /* Small devices (≤768px) */
 @media (max-width: 769px) {
     .container {
-        max-width: 540px;
+        max-width: 600px;
     }
 
     .whatyoueat .reuseable-card-wrapper {

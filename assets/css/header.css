@@ -65,7 +65,7 @@ header aside{
     left: 0px;
     opacity: 0;
     z-index: -1;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 1439px) {
@@ -91,7 +91,7 @@ header aside{
 /* Small devices (≤768px) */
 @media (max-width: 769px) {
     .container {
-        max-width: 540px;
+        max-width: 600px;
     }
 
     .nav-items {

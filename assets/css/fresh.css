@@ -79,6 +79,11 @@
         margin-left: 25px;
     }
 
+    .fresh .fresh-right-content {
+        padding: 52px 0;
+    }
+
+
     .fresh .fresh-card {
         margin-bottom: 52.67px;
     }
@@ -124,7 +129,7 @@
 /* Small devices (≤768px) */
 @media (max-width: 769px) {
     .container {
-        max-width: 540px;
+        max-width: 600px;
     }
 
 }
@@ -134,5 +139,10 @@
     .container {
         max-width: 360px;
         margin: 0 auto;
+    }
+
+    .fresh .fresh-right-content {
+        margin-top: 0px;
+        margin-left: 0px;
     }
 }

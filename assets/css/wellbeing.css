@@ -5,12 +5,12 @@
 }
 
 .wellbeing .section-heading {
-    padding-top: 48px;
+    padding-top: 91px;
 }
 
 .wellbeing .reuseable-left-content {
     flex: 2;
-    padding: 51px 112px;
+    padding: 0px 112px 51px;
 }
 
 .wellbeing .reuseable-right-content {
@@ -64,7 +64,7 @@
         text-align: center;
         padding-top: 0;
     }
-    
+
     .wellbeing .reuseable-right-content {
         display: none;
     }
@@ -108,7 +108,7 @@
 /* Small devices (≤768px) */
 @media (max-width: 769px) {
     .container {
-        max-width: 540px;
+        max-width: 600px;
     }
 
     .wellbeing .reuseable-card-wrapper {
@@ -128,6 +128,10 @@
     .container {
         max-width: 360px;
         margin: 0 auto;
+    }
+
+    .wellbeing .reuseable-card-wrapper {
+        padding-top: 40px;
     }
 
     .wellbeing .reuseable-left-content {
