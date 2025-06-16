@@ -82,6 +82,10 @@
         max-width: 884px;
     }
 
+    .banner{
+        padding-top: 116px;
+    }
+
     .banner .section-description {
         max-width: 630px;
     }
@@ -124,10 +128,6 @@
     .container {
         max-width: 360px;
         margin: 0 auto;
-    }
-
-    .banner {
-        padding-top: 116px;
     }
 
     .banner .section-heading {

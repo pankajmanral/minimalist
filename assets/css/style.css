@@ -61,6 +61,10 @@ section {
     line-height: 24px;
 }
 
+a{
+    text-decoration: none;
+}
+
 @media (max-width:575px) {
     section {
         padding-top: 36px;
@@ -69,5 +73,12 @@ section {
     .section-heading {
         font-size: 39.7px;
         line-height: 53px;
+    }
+}
+
+@media (max-width:360px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
     }
 }

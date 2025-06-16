@@ -57,16 +57,27 @@ header .hamburger {
     display: none;
 }
 
-header aside{
+header aside {
     position: fixed;
-    width: 100%;
+    width: 30%;
+    height: 100%;
     background-color: white;
     top: 0px;
     left: 0px;
-    opacity: 0;
-    z-index: -1;
+    transform: translateX(-100%);
+    z-index: 2;
     transition: all 0.2s ease-in-out;
+    padding-top: 32px;
 }
+
+header aside .mobile-nav-items {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: var(--primary-bg);
+}
+
 
 @media (max-width: 1439px) {
     .container {
@@ -145,11 +156,11 @@ header aside{
         top: 14px;
     }
 
-    header .mobile-nav-list{
+    header .mobile-nav-list {
         list-style-type: none;
     }
 
-    header .mobile-nav-items{
+    header .mobile-nav-items {
         font-family: var(--primary-font);
         margin-bottom: 10px;
     }
@@ -162,4 +173,9 @@ header aside{
         max-width: 360px;
         margin: 0 auto;
     }
+
+    header aside {
+        width: 60%;
+    }
+
 }

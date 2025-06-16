@@ -6,6 +6,7 @@
 .cta-banner .cta-banner-img {
     object-fit: cover;
     object-position: center;
+    height: 667px;
 }
 
 .cta-banner .cta-text-content {
@@ -22,7 +23,7 @@
     padding: 11px 5px;
 }
 
-.cta-banner .section-heading{
+.cta-banner .section-heading {
     margin-bottom: 25px;
 }
 
@@ -134,9 +135,19 @@
         max-width: 884px;
     }
 
+    .cta-banner .cta-text-content {
+        top: 0px;
+    }
+
     .cta-banner .join-nw-btn {
         margin-bottom: 37px;
     }
+
+    .cta-banner .cta-overlay {
+        padding: 119px 66px;
+        top: 476px;
+    }
+
 
     .cta-banner .cta-card:nth-child(3),
     .cta-banner .cta-card:nth-child(4) {
@@ -184,6 +195,12 @@
     .cta-banner .cta-text-content {
         padding: 11px 62px;
     }
+
+    .cta-banner .join-nw-btn {
+        font-size: 16.33px;
+        padding: 11px 62px;
+    }
+
 
     .cta-banner .cta-overlay {
         top: 400px;

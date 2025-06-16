@@ -129,6 +129,10 @@
         margin: 0 auto;
     }
 
+    .whatyoueat .reuseable-card-wrapper {
+        padding-top: 41px;
+    }
+
     .whatyoueat .reuseable-left-content {
         padding: 64px 0;
     }
