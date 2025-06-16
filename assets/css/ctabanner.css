@@ -63,6 +63,11 @@
     cursor: pointer;
     margin-bottom: 56px;
     border: 1px solid var(--tertiary-color);
+    transition: all .3s ease-in-out;
+}
+
+.cta-banner .join-nw-btn:hover {
+    transform: translateY(-5px);
 }
 
 .cta-banner .cta-overlay {
@@ -94,7 +99,7 @@
     justify-content: center;
     align-items: center;
     width: 245px;
-    margin: 8.5px
+    margin: 8.5px;
 }
 
 .cta-banner .cta-card:last-child {
@@ -102,9 +107,7 @@
 }
 
 .cta-banner .plant-icon {
-    border: 1px solid black;
     border-radius: 50%;
-    padding: 12px;
     margin-bottom: 11px;
 }
 

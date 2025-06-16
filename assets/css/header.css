@@ -33,6 +33,7 @@ header .nav-list {
 }
 
 header .nav-items {
+    position: relative;
     list-style-type: none;
     font-family: var(--primary-font);
     color: var(--secondary-color);
@@ -40,9 +41,25 @@ header .nav-items {
     margin-right: 40px;
     font-weight: var(--fw-400);
     line-height: 24px;
-    padding: 32px 0;
+    padding: 32px 0 10px;
     cursor: pointer;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+header .nav-items::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    background-color: var(--primary-bg);
+    width: 0%;
+    transition: all .3s ease-in-out;
+}
+
+header .nav-items:hover::after{
+    width: 100%;
 }
 
 header .nav-items:hover {
