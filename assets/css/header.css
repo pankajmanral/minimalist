@@ -30,26 +30,29 @@ header .brand-logo {
 
 header .nav-list {
     display: flex;
+    list-style-type: none;
 }
 
 header .nav-items {
+    margin-right: 40px;
+    padding: 32px 0px;
+    cursor: pointer;
+}
+
+header .nav-links {
     position: relative;
-    list-style-type: none;
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: 16px;
-    margin-right: 40px;
     font-weight: var(--fw-400);
     line-height: 24px;
-    padding: 32px 0 10px;
-    cursor: pointer;
     transition: color 0.3s ease-in-out;
 }
 
-header .nav-items::after{
+header .nav-links::after {
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     height: 3px;
@@ -58,7 +61,7 @@ header .nav-items::after{
     transition: all .3s ease-in-out;
 }
 
-header .nav-items:hover::after{
+header .nav-links:hover::after {
     width: 100%;
 }
 
@@ -93,6 +96,7 @@ header aside .mobile-nav-items {
     text-align: center;
     padding: 5px 0;
     color: var(--primary-bg);
+    
 }
 
 
@@ -178,8 +182,12 @@ header aside .mobile-nav-items {
     }
 
     header .mobile-nav-items {
-        font-family: var(--primary-font);
         margin-bottom: 10px;
+    }
+
+    header .mobile-nav-links{
+        font-family: var(--primary-font);
+        color: var(--secondary-color);
     }
 
 }

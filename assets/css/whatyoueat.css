@@ -21,11 +21,11 @@
 
 .whatyoueat .reuseable-card-wrapper {
     display: flex;
-    padding-top: 41px;
 }
 
 .whatyoueat .reuseable-card {
     width: 260px;
+    margin-top: 61px;
 }
 
 .whatyoueat .reuseable-card:last-child {
@@ -63,7 +63,7 @@
         text-align: center;
         padding-top: 0;
     }
-    
+
     .whatyoueat .reuseable-right-content {
         display: none;
     }
@@ -74,8 +74,8 @@
     }
 
     .whatyoueat .reuseable-card-wrapper {
-        justify-content: space-between;
-        padding-top: 69px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .whatyoueat .reuseable-card {
@@ -84,6 +84,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 69px;
     }
 
     .whatyoueat .reuseable-card:last-child {
@@ -113,11 +114,10 @@
     .whatyoueat .reuseable-card-wrapper {
         flex-direction: column;
         align-items: center;
-        padding-top: 85px;
     }
 
-    .whatyoueat .reuseable-card:last-child {
-        padding-top: 26px;
+    .whatyoueat .reuseable-card {
+        margin-top: 40px;
     }
 
 }
